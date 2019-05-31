@@ -25,7 +25,6 @@ header {
 	z-index: 900;
     margin-left: -8px;
 	margin-right: -8px;
-	overflow-x:hidden;
 }
 
 header nav{
@@ -61,7 +60,7 @@ li a:hover {
 .logo-container{
 	width: 10%;
 	margin-left: 25px;
-	margin-top: 5px;
+	margin-top: 15px;
 	position: fixed;
 	z-index: 1000;
 }
@@ -79,7 +78,7 @@ li a:hover {
 .section-one-wrapper {
 	width: 100%;
 	background-image:linear-gradient(#973C37, #973C37 15%, #301F0D);
-	padding-top: 80px;
+	padding-top: 120px;
 	margin-left: -8px;
 	margin-right: -8px;
 }
