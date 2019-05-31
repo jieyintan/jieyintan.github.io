@@ -439,6 +439,7 @@ input.field {
 	 font-size: 2rem;
 	}
 
+
 	p {
 	 color: #301F0D;
 	 font-size: 1.2rem;
@@ -506,6 +507,7 @@ input.field {
 	  font-size: 0.9rem;
 	  padding: 2% 0;
 	  margin-top: 5%;
+	  text-align: center;
 	}
 
 	.section-two-wrapper {
@@ -551,8 +553,8 @@ input.field {
 }
 
 @media (max-width: 440px) {
-	button {
-	  font-size: 0.7rem;
+	 button {
+	  font-size: 0.4rem;
 	}
 
 	.footer-basic .footer-icons a{
@@ -565,8 +567,7 @@ input.field {
 
 #mc-embedded-subscribe {
 	width: 120px;
-	font-size: 12px;
-}
+	font-size: 12px;}
 
 }
 
