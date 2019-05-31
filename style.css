@@ -323,7 +323,7 @@ h2.review-header {
 	padding-top: 5%;
     padding-bottom: 5%;
 	background-color: #F5F5F5;
-	width: 70%;
+	width: 60%;
 	margin: auto;
 
 }
@@ -343,7 +343,9 @@ p.banner-text {
 	color: #301F0D;
 	font-size: 16px;
 	font-style: italic;
-	display: inline-block;
+	display: inline-block;	
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 label {
@@ -351,13 +353,24 @@ label {
 	color: #301F0D;
 	font-size: 16px;
 	display: inline-block;
-	margin-bottom: 1vw;
+	margin-bottom: 5px;
 }
+
+select.field {
+	width: 100%;
+	padding: 8px 0;
+	margin-bottom: 6px;
+	font-size: 16px;
+	background-color: white;
+	display: inline-block;
+	border: 0;
+}
+
 
 input.field {
 	width: 100%;
 	padding: 8px 0;
-	margin-bottom: 6px;
+	margin-bottom: 5px;
 	font-size: 16px;
 }
 
@@ -410,6 +423,10 @@ input.field {
 	text-transform: uppercase;
 	border-radius: 2px;
 	margin-bottom: 2vw;
+}
+
+.mce-responses {
+	display: none;
 }
 
 /* CLEARFIXES  --------------*/
