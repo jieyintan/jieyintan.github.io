@@ -25,6 +25,7 @@ header {
 	z-index: 900;
     margin-left: -8px;
 	margin-right: -8px;
+	overflow-x:hidden;
 }
 
 header nav{
@@ -78,7 +79,7 @@ li a:hover {
 .section-one-wrapper {
 	width: 100%;
 	background-image:linear-gradient(#973C37, #973C37 15%, #301F0D);
-	padding-top: 120px;
+	padding-top: 80px;
 	margin-left: -8px;
 	margin-right: -8px;
 }
@@ -460,6 +461,10 @@ input.field {
 	#logo {
 	 width: 80px;
     }
+
+    .section-one-wrapper {
+	background-image:linear-gradient(#973C37, #973C37 25%, #301F0D);
+}
 
 	h1.section-one-text {
 	 font-size: 1.5rem;
