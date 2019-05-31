@@ -260,14 +260,9 @@ h2.review-header {
 	transform: rotate(-5deg);
 }
 
-.even-2 {
-	float: right;
-	transform: rotate(-2deg);
-}
-
 
 .even {
-	float: right;
+/*	float: right;*/
 	transform: rotate(3deg);
 }
 
