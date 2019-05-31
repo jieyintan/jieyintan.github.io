@@ -468,7 +468,18 @@ input.field {
 	}
 
 	.review-container {
-	width: 80%;
+	width: 100%;
+}
+
+.odd {
+	float: none;
+	transform: rotate(1deg);
+}
+
+
+.even {
+	float: none;
+	transform: rotate(-1deg);
 }
 
 }
@@ -552,19 +563,7 @@ input.field {
 	padding: 10px 0;
 }
 
-.odd {
-	float: none;
-}
 
-
-.even {
-	float: none;
-}
-
-
-.review-container {
-	width: 100%;
-}
 
 }
 
@@ -583,7 +582,12 @@ input.field {
 
 #mc-embedded-subscribe {
 	width: 120px;
-	font-size: 12px;}
+	font-size: 12px;
+}
+
+	.even {
+	margin-top: -10%;
+}
 
 }
 
