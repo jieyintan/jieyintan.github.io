@@ -233,10 +233,14 @@ p {
 	float: left;
 }
 
-.odd {
+.even {
 	float: right;
 }
 
+.review-img {
+	width: 80%;
+	margin; auto;
+}
 
 /* FOOTER  --------------*/
 
