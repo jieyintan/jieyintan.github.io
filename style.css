@@ -451,11 +451,10 @@ input.field {
     }
 
 	 button {
-	  width: 15%;
-	  font-size: 0.4rem;
+	  width: 25%;
+	  font-size: 0.9rem;
 	  padding: 2% 0;
 	  margin-top: 5%;
-	  text-align: center;
 	}
 
 	.section-two-wrapper {
@@ -478,11 +477,17 @@ input.field {
 	padding: 6px 0;
 }
 
+#mc-embedded-subscribe {
+	width: 186.5px;
+	font-size: 14px;
+	padding: 10px 0;
+}
+
 }
 
 @media (max-width: 440px) {
-	 button {
-	  font-size: 0.6rem;
+	button {
+	  font-size: 0.7rem;
 	}
 
 	.footer-basic .footer-icons a{
@@ -491,6 +496,11 @@ input.field {
 
 .form-container {
 	width: 80%;
+}
+
+#mc-embedded-subscribe {
+	width: 120px;
+	font-size: 12px;
 }
 
 }
