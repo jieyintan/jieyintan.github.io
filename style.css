@@ -7,7 +7,6 @@
 
 body {
 	text-align: center;
-/*	background-color: #973C37;*/
 	font-family: 'Libre Franklin', sans-serif;
 	width: 100%;
 	overflow-x: hidden;
@@ -57,7 +56,7 @@ li a:hover {
   display: none;
 }
 
-.logo-container{
+/*.logo-container{
 	width: 10%;
 	margin-left: 25px;
 	margin-top: 15px;
@@ -72,6 +71,24 @@ li a:hover {
 	background-color: #F5F5F5;
 	padding: 10px;
 	width: 100px;
+}*/
+
+.logo-container{
+	width: 10%;
+	margin-left: 25px;
+	margin-top: 15px;
+	position: fixed;
+	z-index: 1000;
+	top: 0.5%;
+	left: 0.5%;
+}
+
+#logo {
+	border-radius: 50%;
+	border: 1.5px solid #301F0D;
+	background-color: #F5F5F5;
+	width: 100px;
+	padding: 10px;
 }
 
 /* SECTION ONE --------------*/
@@ -374,19 +391,6 @@ input.field {
 	font-size: 16px;
 }
 
-.shipping-list {
-	list-style-position: inside;
-	padding-left: 0;
-	margin-left: 0;
-}
-
-.shipping {
-	display: block;
-}
-
-.shipping-label {
-	display: inline;
-}
 
 .form-labels {
 	width: 80%;
@@ -406,9 +410,11 @@ input.field {
 	margin-left: -45px;
 }
 
-.check {
-	display: inline-block;
-	text-align: right;
+
+.shipping {
+	list-style-position: outside;
+	padding-left: 0;
+	margin-left: 0;
 }
 
 
