@@ -78,7 +78,7 @@ li a:hover {
 .section-one-wrapper {
 	width: 100%;
 	background-image:linear-gradient(#973C37, #973C37 15%, #301F0D);
-	padding-top: 120px;
+	padding-top: 80px;
 	margin-left: -8px;
 	margin-right: -8px;
 }
@@ -237,9 +237,21 @@ h2.review-header {
 	display: inline-block;
 }
 
+.review-container-2 {
+	width: 50%;
+	margin: auto;
+	padding: 10px 25px;
+	display: inline-block;
+}
+
 .odd {
 	float: left;
 	transform: rotate(-5deg);
+}
+
+.even-2 {
+	float: right;
+	transform: rotate(-2deg);
 }
 
 
@@ -454,6 +466,10 @@ input.field {
 	.how-to-img{
 	 width: 85%;
 	}
+
+	.review-container {
+	width: 80%;
+}
 
 }
 
