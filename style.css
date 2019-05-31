@@ -226,6 +226,7 @@ p {
 	width: 50%;
 	margin: auto;
 	padding: 10px 25px;
+	display: inline-block;
 }
 
 .odd {
