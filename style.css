@@ -435,6 +435,10 @@ input.field {
 	 font-size: 2rem;
 	}
 
+	h2.review-header {
+	 font-size: 2rem;
+	}
+
 	p {
 	 color: #301F0D;
 	 font-size: 1.2rem;
@@ -524,6 +528,20 @@ input.field {
 	width: 186.5px;
 	font-size: 14px;
 	padding: 10px 0;
+}
+
+.odd {
+	float: none;
+}
+
+
+.even {
+	float: none;
+}
+
+
+.review-container {
+	width: 100%;
 }
 
 }
