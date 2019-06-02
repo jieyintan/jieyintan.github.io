@@ -271,6 +271,85 @@ h2.review-header {
 	margin:auto;
 }
 
+/* THANK YOU SECTION  --------------*/
+
+.thankyou-wrapper {
+	width: 100%;
+	padding-top: 80px;
+	margin-left: -8px;
+	padding-bottom: 50px;
+	position: relative;
+	background-image:linear-gradient(#973C37, #973C37 15%, #301F0D);
+}
+
+.thankyou-section {
+	width: 75%;
+	margin: auto;
+}
+
+.image-container{
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+}
+
+.thankyou {
+	border-radius: 50%;
+	background-color: #F5F5F5;
+	width: 65%;
+	padding: 10px;
+}
+
+h1.thankyou-text {
+	color: #F5F5F5;
+	font-size: 2.25rem; /*36px*/
+	text-tranform: capitalize;
+}
+
+.p-container {
+	padding-top: 3%;
+	width: 75%;
+	margin: auto;
+}
+
+p.thankyou-text {
+	color: #FFC368;
+	font-size: 1.25rem; 
+	font-weight: bold;
+}
+
+p a:link, 
+p a:active, 
+p a:visited {
+	color: #FFC368;
+}
+
+.thankyou-two-wrapper {
+	width: 100%;
+	background-color: #F5F5F5;
+	padding-top: 4%;
+	padding-bottom: 2%;
+	margin-left: -8px;
+	margin-top: 0;
+/*	margin-right: -8px;*/
+}
+
+h2.thankyou-header {
+	font-weight: bold;
+	color: #301F0D;
+	font-size: 2.375rem; /*38px*/
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.peek {
+	width: 85%;
+}
+
+.coming {
+	font-style: italic;
+}
+
 /* FOOTER  --------------*/
 
 .footer-basic {
