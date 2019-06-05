@@ -35,8 +35,8 @@
 					<nav class="topnav" id="myTopnav">
 						<a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
 					 	<i class="fa fa-bars"></i>
-						<a href="#top">Home</a>
-						<a href="#ht">How It Works</a>
+						<a href="index.html">Home</a>
+						<a href="index.html#ht">How It Works</a>
 						<a href="buy1.html">Order Now</a>
 					 </a>
 
@@ -48,15 +48,30 @@
 	</div>
 
 		<div class="section-four-wrapper">
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<section class ="section-three clearfix">
+			<div class="order-container-1 box">
+				<img src="box.png" class="order-img">	
+			</div>
+			<div class="order-container-2">
+				<h2 class="order-header">The Rushin' Roulette&reg; Game </h2>
+				<p class="box-header">20.00 USD</p><br/>
+				<p class="description">A game of deceptively cute characters with dangerous motives. Will you be the last one standing or will your strategy backfire?</p><br/>
+				<p class="includes">Box includes: 50 Ammo Cards, 20 Character Cards, 1 Rulebook</p>
+<!-- 				<ul class="includes">Box includes:
+					<li>50 Ammo Cards</li>
+					<li>20 Character Cards</li>
+					<li>1 Rulebook</li>
+				</ul> -->
 
-			<h1 class="form-title">So glad to have you!</h1>
 
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="order-form">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="Y435TBRWJHYQ6">
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			<input type="submit" value="Buy Now" border="0" name="submit">
 			</form>
+
+			</div>
+		
 
 		</div>
 	</div>
