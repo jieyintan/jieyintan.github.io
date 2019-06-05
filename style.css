@@ -696,6 +696,15 @@ p.banner-text {
 	padding: 5px 5px;
 }
 
+.video-container {
+	width: 100%;
+	padding-bottom: 56.25%
+}
+
+.section-one {
+	width: 90%;
+}
+
 }
 
 
@@ -720,11 +729,6 @@ p.banner-text {
 	.even {
 	margin-top: -10%;
 }
-
-.video-container {
-	width: 100%;
-}
-
 
 
 }
