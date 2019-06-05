@@ -683,19 +683,17 @@ p.banner-text {
 	font-size: 12px;
 }
 
-label {
-	font-size: 12px;
+.odd {
+	transform: rotate(0);
 }
 
-input.field {
-	padding: 6px 0;
-	font-size: 12px;
+
+.even {
+	transform: rotate(0);
 }
 
-#mc-embedded-subscribe {
-	width: 186.5px;
-	font-size: 14px;
-	padding: 10px 0;
+.review-container {
+	padding: 5px 5px;
 }
 
 }
