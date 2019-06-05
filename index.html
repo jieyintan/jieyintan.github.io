@@ -12,10 +12,10 @@
 <script type="text/javascript">
 		function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
+  if (x.className === "topnavs") {
     x.className = "topnav";
+  } else {
+    x.className = "topnavs"; 
   }
 }
 	</script>
@@ -30,16 +30,16 @@
 		</div>
 
 		<header>
-				<nav class="topnav">
-					<ul>
-						<li><a href="#top">Home</a></li>
-						<li><a href="#ht">How It Works</a></li>
-						<li><a href="buy1.html">Order Now</a></li>
-						<li><a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
+				
+					<nav class="topnav" id="myTopnav">
+						<a href="javascript:void(0);" class="nav-icon" onclick="myFunction()">
 					 	<i class="fa fa-bars"></i>
-					 </a></li>
+						<a href="#top">Home</a>
+						<a href="#ht">How It Works</a>
+						<a href="buy1.html">Order Now</a>
+					 </a>
 
-					</ul>
+					
 				</nav>
 		</header>
 
@@ -61,6 +61,12 @@
 				<button id="ht"><a href="buy1.html" id="buy-link">Order Now</a></button>
 				
 			</section>
+
+
+						<div class="first-container">
+							<img src="fortune.png" id="fortune">
+						</div>
+
 		</div>
 
 		<div class="section-two-wrapper">
@@ -121,7 +127,7 @@
 					<a href="https://www.instagram.com/playrushinroulette/" target="_blank"><i class="fab fa-instagram"></i></a>
 		<!-- 			<a href="#"><i class="fa fa-linkedin"></i></a> -->
 					<a href="https://www.youtube.com/channel/UCDtd2H9HgWiBHee_XErNJPw" target="_blank"><i class="fab fa-youtube"></i></a>
-					<a href="https://www.youtube.com/channel/UCDtd2H9HgWiBHee_XErNJPw" target="_blank"><i class="fab fa-kickstarter"></i></a>
+					<a href="https://www.kickstarter.com/projects/rushinroulette/rushin-roulette" target="_blank"><i class="fab fa-kickstarter"></i></a>
 				</div>
   			<h5>&copy; 2019 Rushin' Roulette&reg;</h5>
 			</footer>
