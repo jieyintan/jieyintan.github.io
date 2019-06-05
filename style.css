@@ -183,9 +183,13 @@ button:active {
 .section-four-wrapper {
 	width: 100%;
 	background-color: #FFC368;
-	padding-top: 885px;
+	padding-top: 5%;
 	margin-left: -8px;
 /*	margin-right: -8px;*/
+}
+
+.content {
+	height: 100vh;
 }
 
 
@@ -234,6 +238,20 @@ p {
 	padding-bottom: 5%;
 }
 
+#demo {
+	background-color: #973C37;
+}
+
+#demo a:visited, 
+#demo a:link{
+		color: #301F0D;
+}
+
+.button-container {
+	width: 75%;
+	margin: auto;
+}
+
 /* SECTION THREE --------------*/
 .section-three-wrapper {
 	width: 100%;
@@ -279,6 +297,7 @@ h2.review-header {
 	width: 100%;
 	margin:auto;
 }
+
 
 /* THANK YOU SECTION  --------------*/
 
