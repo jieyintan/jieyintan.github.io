@@ -180,6 +180,15 @@ button:active {
 /*	margin-right: -8px;*/
 }
 
+.section-two-wrapper {
+	width: 100%;
+	background-color: #FFC368;
+	padding-top: 885px;
+	margin-left: -8px;
+/*	margin-right: -8px;*/
+}
+
+
 .section-two {
 	width: 75%;
 	margin: auto;
