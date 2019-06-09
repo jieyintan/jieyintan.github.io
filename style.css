@@ -329,7 +329,7 @@ h2.review-header {
 }
 
 .image-container{
-	width: 50%;
+	width: 60%;
 	margin: auto;
 	padding: 10px;
 }
@@ -619,6 +619,10 @@ height: auto;
 	padding-top: 10%;
 }
 
+.image-container{
+	width: 80%;}
+
+
 }
 
 @media (max-width: 666px) {
@@ -706,6 +710,10 @@ p.banner-text {
 .section-one {
 	width: 90%;
 }
+
+.image-container{
+	width: 95%;
+	}
 
 }
 
