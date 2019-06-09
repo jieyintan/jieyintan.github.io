@@ -356,6 +356,7 @@ p.cap-text {
 	color: #301F0D;
 	font-size: 1.25rem; 
 	font-weight: bold;
+	padding-bottom: 0px;
 }
 
 p.thankyou-text {
