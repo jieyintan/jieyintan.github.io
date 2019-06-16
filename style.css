@@ -453,6 +453,10 @@ h2.thankyou-header {
   margin: 0;
 }
 
+#bgg a:visited {
+	color: ##F0B660;
+}
+
 /* BUY  ------------------------------------------*/
 .section-four-wrapper {
 	width: 100%;
