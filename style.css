@@ -453,7 +453,7 @@ h2.thankyou-header {
   margin: 0;
 }
 
-#bgg a:visited {
+a#bgg:visited {
 	color: ##F0B660;
 }
 
