@@ -210,6 +210,10 @@ button:active {
 	margin: auto;
 }
 
+.divider-wrapper {
+	padding-bottom: 15px;
+}
+
 h2.how-to-header {
 	font-weight: bolder;
 	color: #301F0D;
